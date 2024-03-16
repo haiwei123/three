@@ -211,6 +211,17 @@
                         <el-menu-item index="14-4" @click="toRoute('/14-4')">4.工厂模型描边</el-menu-item>
                     </el-menu-item-group>
                 </el-submenu>
+                <el-submenu index="15">
+                    <template slot="title">
+                        <i class="el-icon-pie-chart"></i>
+                        <span>射线拾取模型</span>
+                    </template>
+                    <el-menu-item-group>
+                        <el-menu-item index="15-1" @click="toRoute('/15-1')">1.射线Ray</el-menu-item>
+                        <el-menu-item index="15-2" @click="toRoute('/15-2')">2.射线RatCaster</el-menu-item>
+                        <el-menu-item index="15-3" @click="toRoute('/15-3')">2.射线粮仓应用</el-menu-item>
+                    </el-menu-item-group>
+                </el-submenu>
             </el-menu>
         </el-col>
     </el-row>

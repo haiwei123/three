@@ -43,6 +43,9 @@ import indexView1401 from '@/views/后处理/1.发光描边'
 import indexView1402 from '@/views/后处理/2.自发光通道'
 import indexView1403 from '@/views/后处理/3.多通道组合'
 import indexView1404 from '@/views/后处理/4.工厂模型应用'
+import indexView1501 from '@/views/射线拾取模型/1.射线Ray'
+import indexView1502 from '@/views/射线拾取模型/2.射线拾取RayCaster'
+import indexView1503 from '@/views/射线拾取模型/3.射线拾取应用'
 import HelloWorld from '@/components/HelloWorld'
 
 export const routes = [
@@ -455,6 +458,33 @@ export const routes = [
                 component: indexView1404,
                 meta: {
                     name: '3.工厂设备描边效果'
+                }
+            },
+            {
+
+                path: '15-1',
+                name: '15-1',
+                component: indexView1501,
+                meta: {
+                    name: '1.射线Ray'
+                }
+            },
+            {
+
+                path: '15-2',
+                name: '15-2',
+                component: indexView1502,
+                meta: {
+                    name: '2.射线拾取RayCaster'
+                }
+            },
+            {
+
+                path: '15-3',
+                name: '15-3',
+                component: indexView1503,
+                meta: {
+                    name: '3.射线拾取粮仓应用'
                 }
             },
         ]

@@ -74,7 +74,7 @@ export default {
         //创建环境光
         const ambientLight = new THREE.AmbientLight(0x404040, 0.9)
         this.scene.add(ambientLight)
-        const directionalLight = new THREE.DirectionalLight(0x404040, 5)
+        const directionalLight = new THREE.DirectionalLight(0x404040, 2)
         directionalLight.position.set(0, 200, -200)
         this.scene.add(directionalLight)
         //创建渲染器
